@@ -5,9 +5,9 @@ import React from 'react'
 const About = () => {
   return (
     <div className="w-full">
-      <div className="bg-gray-500 px-4 py-16 sm:px-6 md:py-20 lg:px-8 lg:py-24
+      <div className="bg-gray-500 px-4 py-16 sm:px-6 md:py-20 lg:px-8 lg:py-24 
       bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMfLY1q-5vXFVWKKvOx_6S_UgRsKUrWM6wPpWKAG2lDA&s=10')] bg-cover bg-center text-white">
-        <div className="mx-auto max-w-7xl">
+        <div className="mx-auto max-w-7xl xl:px-8">
           <h1 className="text-2xl font-extrabold leading-snug sm:text-3xl md:text-4xl lg:text-5xl">
             Offering the best experience of <br className="hidden sm:block" />
             business consulting
@@ -48,8 +48,8 @@ const About = () => {
           Our Specialized Team
         </h1>
 
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          <div className="flex flex-col items-center justify-center rounded-2xl bg-gray-100 p-6 text-center shadow-sm transition duration-300 hover:shadow-md">
+        <div className="grid grid-cols-1 overflow-x-auto  gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className=" flex flex-col items-center justify-center rounded-2xl bg-gray-100 p-6 text-center shadow-sm transition duration-300 hover:shadow-md">
             <img
               className="h-[110px] w-[110px] rounded-full border-2 border-yellow-300 object-cover sm:h-[120px] sm:w-[120px]"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYAf6BuPm0XMnrN2ib9O3EfgK0OL1m3DprwIkiJSGw5A&s=10"
