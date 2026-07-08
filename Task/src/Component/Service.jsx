@@ -3,7 +3,7 @@ import React from 'react'
 const Service = () => {
   return (
     <div className="w-full">
-      
+
       <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
         <div className="text-center">
           <p className="text-sm font-bold text-yellow-400 sm:text-base lg:text-lg">
@@ -105,8 +105,8 @@ const Service = () => {
       <div className="w-full bg-gray-200">
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-4 py-14 sm:px-6 sm:py-16 md:grid-cols-2 md:items-center md:gap-8 lg:px-8 lg:py-20">
           
-          {/* Left image */}
-          <div className="flex justify-center md:justify-start">
+          
+          <div className="flex justify-center justify-start">
             <div className="relative w-full max-w-[260px] sm:max-w-[340px] md:max-w-[360px] lg:max-w-md">
               <img
                 className="w-full rounded-2xl object-cover shadow-md"
@@ -125,7 +125,6 @@ const Service = () => {
             </div>
           </div>
 
-          {/* Right content */}
           <div className="flex flex-col justify-center">
             <p className="text-sm font-semibold text-yellow-500 sm:text-base lg:text-lg">
               About us
